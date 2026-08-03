@@ -1,3 +1,5 @@
+import FeaturesSection from "./components/FeaturesSection";
+import Gold from "./components/Gold";
 import HeroSection from "./components/HeroSection";
 import OrderSection from "./components/OrderSection";
 
@@ -6,6 +8,8 @@ const App = () => {
     <div className="relative w-screen h-screen">
       <HeroSection />
       <OrderSection />
+      <FeaturesSection />
+      <Gold />
     </div>
   );
 };
