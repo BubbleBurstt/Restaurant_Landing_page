@@ -5,7 +5,7 @@ import OrderSection from "./components/OrderSection";
 
 const App = () => {
   return (
-    <div className="relative w-screen h-screen">
+    <div className="relative w-screen h-screen overflow-x-hidden">
       <HeroSection />
       <OrderSection />
       <FeaturesSection />
